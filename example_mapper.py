@@ -90,3 +90,4 @@ mapper_output.draw_2D(minsizes=minsizes,
     node_color_scheme=name)
 plt.savefig('mapper_output.pdf')
 plt.show()
+'''
