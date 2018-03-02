@@ -11,9 +11,11 @@ import matplotlib.pyplot as plt
     Step 1: Input
 '''
 import gzip
-filename = '/usr/lib/python2.7/site-packages/mapper/exampleshapes/camel-reference.csv.gz'
-with gzip.open(filename, 'r') as inputfile:
+filename = 'YOUR FILE.csv'
+with open(filename, 'r') as inputfile:
     data = np.loadtxt(inputfile, delimiter=',', dtype=np.float)
+    # or pandas with (pd.read_csv, etc))
+    
 # Preprocessing
 '''
 point_labels = None
